@@ -7,7 +7,7 @@ en este caso ancho máximo 576px, lo puse para más comodidad al ver el navbar e
     }
 }
 
-/* smooth scroll */
+/* smooth scroll al html*/
 
 html {
     scroll-behavior: smooth;
