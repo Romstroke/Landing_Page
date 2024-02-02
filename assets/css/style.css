@@ -11,9 +11,9 @@ h1, h2, h5{
 
 /* smooth scroll al html*/
 /* algo ya lo pone por defecto y no sé que es */
-html {
+/* html {
     scroll-behavior: smooth;
-  }
+  } */
   
 /* Esto es una media query, que es un bloque de css en donde 
 los estilos aplicados sólo se verán hasta o desde cierto ancho de pantalla, 
