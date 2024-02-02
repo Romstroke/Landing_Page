@@ -1,3 +1,15 @@
+/* Fuente importada de GoogleFonts en 2 grosores para aplicar a body y encabezados */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h5{
+    font-weight: 700;
+}
+  
+
 /* Esto es una media query, que es un bloque de css en donde 
 los estilos aplicados sólo se verán hasta o desde cierto ancho de pantalla, 
 en este caso ancho máximo 576px, lo puse para más comodidad al ver el navbar en mobile */
@@ -17,6 +29,7 @@ html {
 footer a{
     color: white;
 }
+
 footer a:hover{
     color: black;
 }
