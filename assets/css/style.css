@@ -1,11 +1,13 @@
 /* Fuente importada de GoogleFonts en 2 grosores para aplicar a body y encabezados */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-body{
+body {
     font-family: "Montserrat", sans-serif;
 }
 
-h1, h2, h5{
+h1,
+h2,
+h5 {
     font-weight: 700;
 }
 
@@ -14,7 +16,7 @@ h1, h2, h5{
 /* html {
     scroll-behavior: smooth;
   } */
-  
+
 /* Esto es una media query, que es un bloque de css en donde 
 los estilos aplicados sólo se verán hasta o desde cierto ancho de pantalla, 
 en este caso ancho máximo 576px, lo puse para más comodidad al ver el navbar en mobile */
@@ -25,11 +27,11 @@ en este caso ancho máximo 576px, lo puse para más comodidad al ver el navbar e
 }
 
 /* links footer */
-footer a{
+footer a {
     color: white;
 }
 
-footer a:hover{
+footer a:hover {
     color: black;
 }
 
@@ -40,13 +42,13 @@ footer a:hover{
     color: white;
     font-size: 25px;
     border-radius: 50%;
-  }
+}
 
-.tooltip-arrow{
+.tooltip-arrow {
     display: none !important;
 }
 
 /* esto es para que la transición de color de fondo que aplicamos al bajar se demore 1 segundo en ocurrir */
-.navbar{
+.navbar {
     transition: background-color 1s;
 }

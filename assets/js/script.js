@@ -28,7 +28,7 @@ window.addEventListener('scroll', function () {
 	//agregaremos al nav la clase .bg-dark de Bootstrap
 	if (window.scrollY > 1000) {
 		navbar.classList.add('bg-dark');
-	// y aqui removemos esa clase .bg-dark de Bootstrap para que vuelva a ser transparente	
+		// y aqui removemos esa clase .bg-dark de Bootstrap para que vuelva a ser transparente	
 	} else if (window.scrollY <= 1000) {
 		navbar.classList.remove('bg-dark');
 	}
