@@ -1,4 +1,4 @@
-// tooltips 
+// tooltips con código de Bootstrap v5.3
 
 var tooltipTriggerList = document.querySelectorAll(
 	'[data-bs-toggle="tooltip"]'
@@ -7,7 +7,7 @@ var tooltipList = [...tooltipTriggerList].map(
 	(tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
 );
 
-//smooth scroll con jquery
+//smooth scroll con jquery 3.7.1
 
 $("a").click(function () {
 	if (this.hash !== "") {
@@ -24,12 +24,12 @@ $("a").click(function () {
 var navbar = document.querySelector('.navbar');
 //escuchamos el evento scroll de la ventana que contiene nuestro DOM
 window.addEventListener('scroll', function () {
-	// cuando el scroll en el eje vertical sea mayor a 500 pixeles, 
-	//agregaremos al nav la clase .navbar-scrolled que creamos en style.css
-	if (window.scrollY > 500) {
-		navbar.classList.add('navbar-scrolled');
-	// y aqui removemos esa clase .navbar-scrolled para que vuelva a ser transparente	
-	} else if (window.scrollY <= 500) {
-		navbar.classList.remove('navbar-scrolled');
+	// cuando el scroll en el eje vertical sea mayor a 1000 pixeles, 
+	//agregaremos al nav la clase .bg-dark de Bootstrap
+	if (window.scrollY > 1000) {
+		navbar.classList.add('bg-dark');
+	// y aqui removemos esa clase .bg-dark de Bootstrap para que vuelva a ser transparente	
+	} else if (window.scrollY <= 1000) {
+		navbar.classList.remove('bg-dark');
 	}
 });

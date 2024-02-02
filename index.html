@@ -229,11 +229,28 @@
                             <textarea id="mensaje" class="form-control" rows="7"></textarea>
                         </div>
                         <div class="mb-3">
-                            <button type="submit" class="btn btn-info text-white col-4 col-md-2 col-lg-1">
+                            <button type="button" class="btn btn-info text-white col-4 col-md-2 col-lg-1"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Enviar
                             </button>
                         </div>
                     </form>
+                    <!-- Modal que se activa al presionar boton enviar de formulario-->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="row modal-body">
+                                    <img src="assets/img/viajes.svg" alt="Viajes Chile" width="100px" height="100px">
+                                    <h5 class="text-dark text-center">¡¡¡Gracias por comunicarte con nosotros!!!</h5>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-info text-white"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </div>
         </div>

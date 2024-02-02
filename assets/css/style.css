@@ -46,12 +46,7 @@ footer a:hover{
     display: none !important;
 }
 
-/* esto es para que la transición de color que aplicamos al bajar se demore 1 segundo en ocurrir */
+/* esto es para que la transición de color de fondo que aplicamos al bajar se demore 1 segundo en ocurrir */
 .navbar{
-    transition: all 1s;
-}
-
-/* esta es la nueva clase que incluímos al navbar desde js para que ocurra sólo al hacer scroll en el eje y */
-.navbar-scrolled{
-    background-color: #000000;
+    transition: background-color 1s;
 }
