@@ -12,3 +12,17 @@ en este caso ancho máximo 576px, lo puse para más comodidad al ver el navbar e
 html {
     scroll-behavior: smooth;
   }
+
+/* links footer */
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: black;
+}
+
+/* * {
+background: #000 !important;
+color: #0f0 !important;
+outline: solid #f00 1px !important;
+} */
