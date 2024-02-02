@@ -1,0 +1,14 @@
+/* Esto es una media query, que es un bloque de css en donde 
+los estilos aplicados sólo se verán hasta o desde cierto ancho de pantalla, 
+en este caso ancho máximo 576px, lo puse para más comodidad al ver el navbar en mobile */
+@media (max-width: 576px) {
+    .navbar {
+        background: #0dcaf0
+    }
+}
+
+/* smooth scroll */
+
+html {
+    scroll-behavior: smooth;
+  }
