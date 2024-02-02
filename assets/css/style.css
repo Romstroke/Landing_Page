@@ -3,12 +3,12 @@ los estilos aplicados sólo se verán hasta o desde cierto ancho de pantalla,
 en este caso ancho máximo 576px, lo puse para más comodidad al ver el navbar en mobile */
 @media (max-width: 576px) {
     .navbar {
-        background: #0dcaf0
+        background: #0dcaf0a3;
     }
 }
 
 /* smooth scroll al html*/
-
+/* algo ya lo pone por defecto y no sé que es */
 html {
     scroll-behavior: smooth;
   }
