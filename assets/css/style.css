@@ -11,8 +11,7 @@ h5 {
     font-weight: 700;
 }
 
-/* smooth scroll al html*/
-/* algo ya lo pone por defecto y no sé que es */
+/* smooth scroll al html pero con css*/
 /* html {
     scroll-behavior: smooth;
   } */
@@ -47,6 +46,7 @@ footer a:hover {
 .tooltip-arrow {
     display: none !important;
 }
+
 
 /* esto es para que la transición de color de fondo que aplicamos al bajar se demore 1 segundo en ocurrir */
 .navbar {

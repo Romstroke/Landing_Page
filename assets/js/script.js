@@ -9,7 +9,7 @@ var tooltipList = [...tooltipTriggerList].map(
 
 //smooth scroll con jquery 3.7.1
 
-$("a").click(function () {
+$(".nav-link").click(function () {
 	if (this.hash !== "") {
 		var hash = this.hash;
 		$("html, body").animate({
